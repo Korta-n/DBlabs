@@ -3,36 +3,28 @@
 ---
 
 ## Functionality
-<!-- 
-All users can be divided into two main categories: 
-1. Guests
-2. Authenticated users
 
-**Guests** are only able to look through the general data, e.g. list of doctors or app calendar. To authenticate, a guest
-can either sign up, if they do not have an account, or log in the system otherwise.
-Authenticated user can either be a **patient**, a **doctor (staff member)**, or an **admin (staff member)**. 
+All users can be devided into two groups:
+1. Candidates
+2. Clients
 
-#### Patient can
-1. Manage their appointments
-2. Manage their health data via a health card
-3. Manage available dates for an appointment
-4. Make an appointment with their doctor
-5. Receive and pay bills
 
-#### Staff member (doctor) can
-1. Manage their patients
-2. Manage their appointments
-3. Manage patient's health data via their health cards
-4. Send bills to patients
-5. Make announcements
+#### Client can
+1. Manage their jobs (dates, slaries, all fields)
+2. Manage their profile info
+3. Manage Placements to look or change info
+4. View all candidates and possible placements for his jobs
+5. Receive paying bills
+
+#### Candidate
+1. Manage their profile
+2. Manage their placements or applications to jobs
+3. Manage their job status and request additional info
 
 #### Admin can
-1. Manage (delete, update info, etc.) staff members
-2. Carry out doctor's responsibilities
-3. View the logs journal
-4. Alter the logs
-
---- -->
+1. Manage (delete, update info, etc.) of jobs | clients | candidates | placements
+2. Add clients to the platform | collect jobs info from clients
+3. Look through activity logs and change system behaviour.
 
 ## Database
 
